@@ -1,0 +1,33 @@
+{
+  "manifest": "road-delivery/1",
+  "format": "CVAT for images 1.1",
+  "guideline": "Road v1.0",
+  "name": "HODANGMANH",
+  "revision": 1,
+  "created_at": "2026-11-21T15:46:29+00:00",
+  "files": [
+    {
+      "file": "Road_v1_CHUAN_chinh_thu_tu_2_polyline_4_ngoai_le.zip",
+      "bytes": 15084,
+      "sha256": "771aa1826ad30b7741697d2d0386f54eea4311274ab3a3a4950f4fa0087d5ea1",
+      "contains_images": false,
+      "images": 28,
+      "images_unlabelled": 0,
+      "images_all_tags": 28,
+      "shapes_by_label": {
+        "crosswalk": 23,
+        "drivable": 42,
+        "lane": 43,
+        "road_curb": 26,
+        "traffic_light": 47,
+        "traffic_sign": 52
+      }
+    }
+  ],
+  "lint": {
+    "nặng": 4,
+    "chính": 0,
+    "nhẹ": 0
+  },
+  "note": "Tạo bởi road_check lint. Mô tả file đã gửi, không phải kết luận chất lượng."
+}
